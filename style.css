@@ -1,0 +1,42 @@
+<style>
+.padded {
+    padding: 10px;
+}
+.shownupabove {
+    background-color: #0000FF;
+    color: white;
+    font-weight: bold;
+}
+.showninthecenter {
+    background-color: #9999FF;
+}
+.showndownbelow {
+    background-color: #0000FF;
+    color: white;
+    font-size: 80%;
+}
+
+html, body{height:100%; margin:0;padding:0}
+ 
+.container-fluid{
+  height:80%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+ 
+.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
+
+.centering {
+  float:none;
+  margin:0 auto;
+}
+
+@media (max-width: 768px) {
+  .vertical-center:before {
+    height: auto;
+    /*/* Or */
+    /*display: none;*/
+  }
+}
+</style>
